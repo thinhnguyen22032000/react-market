@@ -1,0 +1,12 @@
+.header {
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.header__logo__link {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.header__logo__link:hover{
+    color: var(--primary-color);
+}
