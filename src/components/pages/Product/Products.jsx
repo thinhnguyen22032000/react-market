@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import Product from './Product'
-import { Row, Spinner } from 'react-bootstrap'
+import { Col, Row, Spinner } from 'react-bootstrap'
 
 
 import { collection, onSnapshot, query } from 'firebase/firestore'
@@ -29,7 +29,8 @@ const Products = ({loading, setLoading}) => {
   }
   
   return (
-    <Row>
+    <Row style={{marginTop: '20px'}}>
+      <Col lg='12' style={{padding:'10px'}}>Sản phẩm mới</Col>
         {
          products.map(doc => {
              return <Product key={doc.id} {...doc}/>

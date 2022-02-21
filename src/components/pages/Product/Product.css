@@ -1,4 +1,11 @@
 .card {
     text-decoration: none;
     color: var(--text-color);
+    transition: all 0.4s;
+}
+
+.card:hover {
+    border: 1px solid var(--primary-color);
+    background-color: var(--primary-color);
+    color: white;
 }

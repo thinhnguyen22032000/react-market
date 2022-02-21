@@ -1,0 +1,27 @@
+.footer {
+    margin-bottom: 40px;
+    border-top: 4px solid var(--primary-color);
+}
+.footer__block {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.block__title {
+    font-weight: 500;
+    margin-bottom: 10px;
+
+}
+.block__list-item-icon {
+    margin-right: 10px;
+    display: inline-block;
+}
+.block__list-item-text {
+    display: inline-block;
+}
+.block__list-item-text:hover {
+    color: var(--primary-color);
+    cursor: pointer;
+}
